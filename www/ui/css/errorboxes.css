@@ -1,0 +1,27 @@
+.noticebar {
+	margin-bottom: 10px;
+	padding: 4px;
+	background: #DCEBC9;
+	border: 1px dotted #71B700;
+}
+
+.noticebar a {
+	text-decoration: none; font-size: 80%; 
+	float: right; color: #253908; 
+	border-bottom: 1px dotted #253908;
+}
+
+.errorbar {
+	margin-bottom: 10px;
+	padding: 4px;
+	background-color: #FFEBE8;
+	border: 1px dotted #DD3C10;
+}
+
+.errorbar a { 
+	text-decoration: none; 
+	font-size: 80%; 
+	float: right; 
+	color: #DD3C10; 
+	border-bottom: 1px dotted #DD3C10; 
+}

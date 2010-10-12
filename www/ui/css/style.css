@@ -1,0 +1,360 @@
+/*----------------------------------------
+Variant: Screen
+Author: CMU IS Team
+Date: 3/24/2009
+----------------------------------------*/
+
+/*--RESET (yahoo.com) __________________________________________*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,tr {  
+   margin:0; 
+   padding:0; 
+} 
+table { border-collapse:collapse; border-spacing:0; } 
+fieldset,img { border:0; } 
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; } 
+ol,ul { list-style:none; } 
+caption,th { text-align:left; } 
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; } 
+q:before,q:after { content:''; } 
+abbr,acronym { border:0; }
+img { padding: 0px; margin: 0px; outline: 0px; border: 0px;}
+
+/*--Global ____________________________________________________*/
+.wrapper { 
+	width: 960px; 
+	margin: 0 auto;
+	padding: 0; 
+	position:relative;
+	min-height: 90%; /*footer fix*/
+}    
+.fwrapper { 
+	width: 400px; 
+	margin: 5px auto;
+	padding: 0; 
+	position:relative;
+}
+html, body {
+   margin:0;
+   padding:0;
+   height:99.85%; /*footer fix*/
+}
+body {background: #FFF url('/ui/images/bg.png') repeat-x top; text-transform: normal;
+	border-top: 4px solid #000; color: #444; font-size: 12px; font-style: normal;
+	font-family: 'lucida grande', 'lucida sans unicode', tahoma, verdana, arial, sans-seif; }
+p { line-height: 18px;}	
+a { text-decoration: none; color: #4B5777; }
+a:hover { text-decoration: underline; }
+h2 { 
+	font-family: Georgia, Times, Times New Roman, serif; font-weight: normal; font-style: normal; text-transform: normal; color: #43793D;
+	letter-spacing: -1px; font-size: 25px; padding-bottom: 2px; border-bottom: 1px dotted #444444; margin-bottom: 3px; }
+h3 { padding-bottom: 12px; color: #000; font-weight: bolder; font-size: 16px; }
+.intro { font-size: 18px; line-height: 26px; font-family: Georgia, Times, Times New Roman, serif; font-style: italic;}
+.intro-header {  font-size: 24px; font-family: Georgia, Times, Times New Roman, serif;letter-spacing: -1px; color: #43793D; font-weight: normal;}
+#tabs p { margin-bottom: 14px;}
+
+/*--HEADER ____________________________________________________*/
+#header { height: 149px; color: #bfbebe;}
+#logo { background: url('../images/qlogo.png'); height: 100px; position: absolute; top: 25px; width: 360px; float:left;}
+#logo_link {margin: 0 auto 0 auto; display: block; width: 350px; height: 100px; border: none}
+#nav ul { display: inline block; margin-left: 20px;}
+#nav a { color: #DBDBDB; font-size: 13px; text-shadow: 1px 1px 1px #000; text-decoration: none; font-weight: bold; 
+		 text-transform: uppercase; padding: 10px 25px 13px 25px; float:left;
+		 margin-right: 5px; }
+#nav a.active { color:#444444; text-shadow: 1px 1px 1px #FFF; background: #DBDBDB; 
+		border-right: 1px solid #FFF; border-left: 1px solid #FFF; }			
+#login { background: rgba(0, 0, 0, 0.15);
+		-moz-border-radius-bottomleft: 10px;  
+		-moz-border-radius-bottomright: 10px; 	
+		-webkit-border-bottom-left-radius: 10px;  
+		-webkit-border-bottom-right-radius: 10px; 
+		width: 300px; height: 125px; 
+}
+#login.small {  height: 70px; }
+#login input[type=text], #login input[type=password], textarea {
+		margin-top: 5px; padding:6px;
+		border: #727887 0px solid;
+		background-color:#dadce1; font-size:14px;
+}
+#login input[type=text]:hover, #login input[type=password]:hover {
+		border:#FFF 0px solid;	}	
+#login label {
+		padding-left: 25px;
+		text-transform: uppercase;
+		font-size: 12px; color: #bfbebe;
+}
+#login_button { position: absolute; top: 90px; }
+#login a.forgot { margin-left: 48px; position: relative; top: 15px;}
+#header a {	color: #d4e1ff;	text-decoration: none; }
+#breadcrumb { padding-top: 15px; padding-bottom: 35px; clear:both; }
+.forgot { padding-bottom: 3px;}
+.loggedbox { padding: 5px 10px 0 0; float: right; text-align: right; line-height: 20px; }
+.loggedin { float:right; font-size:9pt; height:18px; padding-top:6px; padding-right:45px; }
+.tip { background: #FFFFD8; border: 1px solid #F0B053; padding: 10px; font-style: italic; margin-bottom: 5px; }
+.tip a.bolder { font-weight: bolder !important; text-decoration: none !important; color: #000 !important;}
+
+/*--BODY ____________________________________________________*/
+
+.coursedescript { color: #9D9D9D; padding: 2px; }
+
+.datahead { margin-top: 3px; font-weight: bold; font-size: 1.2em; line-height: 18px; border-top: 1px solid #444; }
+.datarow { padding: 10px; margin-bottom: 2px; background: #F2F2F2;	border: 1px dotted #DBDBDB; }
+.datarow a { padding: 2px; text-decoration: underline; color: #4B5777; }
+.datarow a:hover { background-color: #4B5777; color: #FFF; }
+a:hover img{ background: none !important; }
+
+#ajaxloadingindicator{
+    position: fixed;
+    top: 0; left: 0; z-index: 5000;
+    background-color: red; font-size: 150%;
+    color: white; padding: 2px;
+}
+
+#contentblock { margin-bottom: 20px; }
+
+#quickform { background: #F2F2F2; border: 1px dotted #DBDBDB; margin-bottom: 10px; padding: 10px 0 10px 10px; }
+
+.classhead { 
+	font-size: 1.2em; border: 1px solid #888;
+	background: #DDD url('../images/arrow-right.gif') no-repeat right;
+	margin-top: 10px; padding: 5px 5px 5px 10px; font-weight: none; 
+}
+
+.classarea { 
+	background: #F2F2F2;
+	border: 1px dotted #666; 
+	padding: 10px; 
+}
+
+ul.evalhead li { font-weight: bolder; border-bottom: 1px solid #555; line-height: 20px; }
+
+ul.evalrow li { 
+	display: block; 
+	float: left; 
+	width: 145px; 
+}
+ul.evalrow { 
+	line-height: 30px;
+	padding-bottom: 30px;
+	width:100%;
+	clear: both;
+}
+
+.comment {
+	background: #eaf6e2;
+	border: 1px solid #B7D7A0;
+	
+}
+
+img.icon { position: relative; bottom: -4px;}
+ul.current { background: #fdffcf; }
+li.student { font-size: 80%; width: 30px !important; text-align:center; }
+li.postdate { width: 100px !important;}
+li.duedate { width: 90px !important;}
+
+.open { 
+	background: #999 url('../images/arrow-down.gif') no-repeat right !important; 
+	border: 1px solid #111; font-weight: bolder; color: white !important;
+}
+
+.medtext { 
+	font-family: Georgia, serif;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	text-align: right;
+	line-height: 1em;
+	color: #cccbcb;
+	padding-right: 25px;
+}
+
+.bigtext { 
+	font-family: Georgia, serif;
+	font-size: 44px;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	text-align: right;
+	line-height: .5em;
+	color: #787878;
+	padding-right: 20px;
+}
+
+ul.featurelist {
+	padding-top: 30px;
+	line-height: 1.5em;
+}
+
+div.hr {
+	width: 100%;
+	height: 1px;
+	color: #ccc;
+	background: #ccc;
+	border: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.legend { border-top: #CCC solid 1px; padding: 10px; text-align: left; height: 60px; margin-bottom: 10px; margin-top: 5px;}
+.legendcol { width: 210px; float:left;}
+.aright { text-align: right; }
+a.clonelink { margin-right: 5px; text-decoration:none; color: #666; padding: 0; float:right;}
+a.clonelink:hover { padding: 0; background: none; color: #353535;}
+
+/* names list */
+.namelist { margin: 7px 7px 0 7px; width: 475px; background: #CCC; border: 1px solid #FFF; font-size: 0.8em; }
+.namelist thead { text-transform: uppercase; text-shadow: 1px 1px 1px #DDD; background: #AAA; border: 1px solid #FFF;}
+.namelist td { border: 1px solid #FFF; padding: 5px; margin: 0px;}
+.namelist th { padding-left: 5px; font-weight: bolder;}
+.namelist tr { border: 1px solid #FFF; padding-left: 10px; margin: 0px; height: 22px;}
+.namelist tbody, table { padding: 0px;}
+
+/* standards */
+.groupbox { background: #F2F2F2; border: 1px solid #DBDBDB; padding: 5px; margin-bottom: 5px; width: 800px !important;}
+.green { color: #71B700; }
+.red { color: #DD3C10; }
+.white { color: #FFF;}
+.hred { background-color: #cb8080; }
+.hgreen { background-color: #80cb80; }
+.droppable-hover { background-color:yellow; }
+.hidden { display: none;}
+.point { cursor: pointer; }
+.clear { clear: both; }
+.right { float:right; }
+.left { float:left; }
+.draghandle { cursor: move;}
+.small { font-size: 80%; }
+.large { font-size: 120% }
+.huge { font-size: 120% !important; color: #777 !important; }
+.odd {
+    padding: 10px; margin-bottom: 2px;
+    border: 1px dotted #AAA;
+}           
+
+.even {
+    padding: 10px; margin-bottom: 2px;
+    background-color: #F2F2F2;
+    border: 1px dotted #AAA;
+}
+
+/*--FOOTER ____________________________________________________*/
+#footerspacer {	height:5px; }
+
+#footer {
+	background: #353431 url('../images/footer.jpg') repeat-x;
+	height: 80px; clear: both; width: 100%; 
+	color: #DBDBDB;	text-align: center; line-height: 25px;
+	padding-top: 40px; font-size: 11px;
+}  
+
+.infosys {
+	width: 173px;
+	height: 36px; 
+	float: left;
+	background: url('../images/IS.jpg') no-repeat 0 0;
+} 
+
+.twitter {
+	width: 113px;
+	height: 36px; 
+	float: left;
+	background: url('../images/Twitter.jpg') no-repeat 0 0;
+}
+
+.facebook {
+	width: 107px;
+	height: 36px; 
+	float: left;
+	background: url('../images/Facebook.jpg') no-repeat 0 0;
+}                         
+       
+.infosys:hover {
+	background: url('../images/IS.jpg') no-repeat 0 -36px;
+}      
+
+.twitter:hover {
+	background: url('../images/Twitter.jpg') no-repeat 0 -36px;
+}
+
+.facebook:hover {
+	background: url('../images/Facebook.jpg') no-repeat 0 -36px;
+}
+
+#footer p { color: #333; }
+
+#footer a { color: #FFF; }
+
+ul.studentrow li { width: 200px; display: block; float: left; }
+ul.studentrow { clear: both; }
+
+ul.headerrow li { width: 140px; display: block; float: left; }
+ul.headerrow { clear: both; }
+
+/* --PALETTE____________________________________________________
+
+#444444;	nav active
+#DBDBDB;	nav grey
+#000000;	black
+#FFFFFF;	white
+#FFFFD8;	notice yellow
+#F0B053;	notice yellow border
+#FFEBE8;	error red
+#DD3C10;	error red border
+#B7D7A0;	success green
+#71B700;	success green border
+#4B5777;	link
+____________________________________________________*/
+
+
+/* --BUTTONS____________________________________________________
+Credits: Dynamic Drive CSS Library
+URL: http://www.dynamicdrive.com/style/
+____________________________________________________*/
+a.ovalbutton{
+background: transparent url('../images/oval-gray-left.gif') no-repeat top left;
+display: block;
+float: left;
+font: 13px;
+line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+height: 24px; /* Height of button background height */
+padding-left: 11px; /* Width of left menu image */
+text-decoration: none;
+}
+
+a:link.ovalbutton, a:visited.ovalbutton, a:active.ovalbutton{
+color: #494949; /*button text color*/
+}
+
+a.ovalbutton span{
+background: transparent url('../images/oval-gray-right.gif') no-repeat top right;
+display: block;
+padding: 4px 11px 4px 0; /*Set 11px below to match value of 'padding-left' value above*/
+}
+
+a.ovalbutton:hover{ /* Hover state CSS */
+background-position: bottom left;
+}
+
+a.ovalbutton:hover span{ /* Hover state CSS */
+background-position: bottom right;
+color: black;
+}
+
+.buttonwrapper{ /* Container you can use to surround a CSS button to clear float */
+overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+width: 100%;
+}
+
+.savebutton{
+	padding-bottom: 35px;
+}
+
+.softbutton {
+	opacity: 0.8;
+}
+
+.softbutton:hover {
+	opacity: 1.0;
+}

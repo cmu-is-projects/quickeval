@@ -1,0 +1,21 @@
+QuickEval.me Source Code!
+
+
+Directory Structure:
+
+/db - login information - strictly informative
+/lib - library for PHP functions
+/templates - templates for the site
+/test - test cases for the library classes
+/www - public html directory
+
+testing on development:
+phpunit --configuration devphpunit.xml
+
+
+Cron-job for email alerts goes like this:
+runs at 12:05am daily
+
+5 0 * * * curl "http://www.quickeval.me/24hourEmailReminder?access_token=aa2kk2n1g230c8ugfy482" >/dev/null 2>&1
+
+make sure you have that access token included in the URL.

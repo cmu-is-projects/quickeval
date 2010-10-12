@@ -1,0 +1,28 @@
+input.liveedit_editing {
+	background-color : #FFFF99;
+	height:16pt;
+	font-size: 12pt;
+}
+
+.liveedit_saving {
+background-color : #FFFF99;
+}
+
+.liveedit_activate:hover {
+	background-color : #FFFF99;
+}
+.liveedit_savebutton {
+	background: rgb(128, 128, 128);
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding:6px 10px 6px 10px;
+}
+
+.liveedit_cancelbutton {
+	background: rgb(204, 204, 204);
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 6px;
+}

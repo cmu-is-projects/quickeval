@@ -1,0 +1,15 @@
+<h2>Welcome to QuickEval</h2>
+<p>Hello <?php echo $inviteduser->name(); ?>,
+
+You have been invited by your professor, <?php echo $invitinguser->name(); ?>, to QuickEval.org, the premier online peer evaluation system.  
+
+Please click this link to activate your account:
+<a href="<?php echo WEB_ROOT;?>signup?key=<?php echo $inviteduser->invite_code; ?>&email=<?php echo $inviteduser->email; ?>"><?php echo WEB_ROOT;?>signup?key=<?php echo $inviteduser->invite_code; ?>&email=<?php echo $inviteduser->email; ?></a>
+
+If the link above does not work, please go to <a href="<?php echo WEB_ROOT;?>signup?key=<?php echo $inviteduser->invite_code; ?>">
+<p><span class="formlabel">email:</span><span class="forms"><?php echo $inviteduser->email?></span></p>
+<p><span class="formlabel">email:</span><span class="forms"><?php echo $inviteduser->invite_code?></span></p>
+
+Thank You,
+The QuickEval Team
+</p>

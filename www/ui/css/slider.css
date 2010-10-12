@@ -1,0 +1,145 @@
+	
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+	#container{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:950px;
+		background:#fff;		
+		margin-bottom:2em;
+		}	
+		
+
+/* Easy Slider */
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:950px;
+		height:500px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-40px;
+		top:500px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{ 
+		left:960px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		/*background:url(../images/btn_prev.gif) no-repeat 0 0;	*/
+		}	
+	#nextBtn a, #slider1next a{ 
+		/*background:url(../images/btn_next.gif) no-repeat 0 0;	*/
+		}	
+		
+	/* numeric controls */	
+
+	#controls{
+		margin:1em 0;
+		padding:0;
+		height:28px;	
+		}
+	#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	#controls li a{
+		float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#e9ebf3;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;
+		}
+	#controls li.current a{
+		background:#374262;
+		color:#fff;
+		}
+	#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+	.qleft {
+		float: left;
+		padding-top: 18px;
+		padding-right: 8px;
+	}
+/* // Easy Slider */
+
+#slider ul li table {
+	width: 949px;
+	height: 400px;
+	font-size: 150%;
+	margin-top: 5px;
+	border:1px dotted #AAAAAA;
+	margin-left: 1px;
+	position: relative;
+	text-align: center;
+}
+
+#slider ul li table th { background: #F2F2F2; } 
+
+#slider ul li table thead tr { height: 30px !important; }
+
+#slider ul li table tbody td { height: 60px; }
+
+#slider ul li table tfoot { background: #FAFAFA; }
+
+#slider ul li tr th {
+	width: auto;
+	text-align: center;
+}
+
+#slider ul li th.tavg {
+	width: 30px;
+}
+
+#slider ul li td.tavg {
+	background: #FAFAFA;
+}
+
+#slider ul li th.tfirst {
+	width: 30px;
+}
+
+#slider ul li tr, #slider ul li td  {
+	border:1px dotted #AAAAAA;
+}
+
+#slider ul li table tr, #slider ul li table td {
+	width: auto;
+}

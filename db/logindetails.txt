@@ -1,0 +1,3 @@
+server: quickeval.me
+user: quickeval
+pass: bJtVdRccfJRUwG7e

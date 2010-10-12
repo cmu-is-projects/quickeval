@@ -1,0 +1,2 @@
+<h2 style="font-size: 16px; font-weight: bold; margin: 0 0 4px 0; border-bottom: 1px solid #cbcbcb; font-family: 'Lucida Grande', sans-serif; color: #3B4868; padding: 0 0 4px 0;"><?php echo $title;?></h2>
+							<p style="font-size: 12px; font-weight: normal; margin: 0 0 16px 0; font-family: 'Lucida Grande', sans-serif; color: #333333; padding: 0;"><?php echo $content;?></p>  

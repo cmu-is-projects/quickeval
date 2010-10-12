@@ -1,0 +1,11 @@
+# Ignore the stupid .DS_Store that Mac OS X leaves
+.DS_Store
+
+# Ignore all log files
+*.log
+
+# Ignore all tmp directories and files
+tmp/**/*
+
+# Ignore db files (rebuild and repopulate each time)
+*.sqlite3

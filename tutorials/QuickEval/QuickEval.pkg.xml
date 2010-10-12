@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN">
+<refentry id="{@id}">
+	<refnamediv>
+		<refname>User Guide for QuickEval</refname>
+		<refpurpose>To outline the technical aspects and design of the QuickEval system</refpurpose>
+	</refnamediv>
+	{@toc}
+	<refsect2 id="{@id teammembers}">
+		<title>Team Members</title>
+		<itemizedlist>
+			<listitem><para>Professor Heimann (Project Advisor)</para></listitem>
+			<listitem><para>Lauren Taglieri (Project Manager)</para></listitem>
+			<listitem><para>Ari Rubinstein (Technical Lead)</para></listitem>
+			<listitem><para>Noah Levin (Design Lead)</para></listitem>
+			<listitem><para>Steven Benders (Risk Manager)</para></listitem>
+			<listitem><para>Tracy O'Connor (Quality Assurance Manager)</para></listitem>
+		</itemizedlist>
+	</refsect2>
+
+</refentry>

@@ -1,0 +1,17 @@
+<phpunit>
+	<php>
+		<ini name="include_path" value=".:/usr/local/PEAR:./lib"/>
+	</php>
+	<testsuite name="All Tests">
+		<directory>test</directory>
+	</testsuite>
+	<filter>
+		<blacklist>
+			<directory suffix=".php">test</directory>
+		</blacklist>
+		<whitelist>
+			<directory suffix=".php">www</directory>
+			<directory suffix=".php">lib</directory>
+		</whitelist>
+	</filter>
+</phpunit>

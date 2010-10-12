@@ -1,0 +1,32 @@
+#configuration file for quickeval site
+
+Configuration:
+    Globals:
+        application_version: 0.002
+        blowfish_salt: "taki3ijfdsaSecret$tringUs3d4H@$HING!4KAL3NVAksdf.sdopi49"
+    Production:
+        include_path: ".:/usr/share/pear:/usr/share/php:/home/arubinst/sites/me/quickeval/trunk/lib"
+        site_root: "/home/arubinst/sites/me/quickeval/trunk/"
+        web_root: "http://dev.quickeval.me/"
+        selenium_browser: "firefox"
+		administrator_email: "profh@cmu.edu"
+    Development:
+        include_path: ".:/Applications/MAMP/bin/php5/lib/php:/Users/needhelpcallari/Documents/CMU/Spring 2009/67373/quickeval/trunk/lib"
+        site_root: "/Users/needhelpcallari/Documents/CMU/Spring 2009/67373/quickeval/trunk/"
+        web_root: "http://localhost:8888/"
+        selenium_browser: "safari"
+		administrator_email: "profh@cmu.edu"
+        
+Database:
+    Production:
+        server: 127.0.0.1
+        user: quickeval
+        pass: bJtVdRccfJRUwG7e
+        port: 3306
+        database: quickeval
+    Development:
+        server: quickeval.me
+        user: quickeval
+        pass: bJtVdRccfJRUwG7e
+        port: 3306
+        database: quickeval

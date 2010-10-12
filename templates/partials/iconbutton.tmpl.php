@@ -1,0 +1,1 @@
+<a <?php if (isset($onclick)) echo "onclick=\"$onclick\" "; ?><?php if (isset($linked)) echo "href=\"$linked\" "; ?><?php if (isset($rel)) echo "rel=\"$rel\" "; ?>id="<?php echo (isset($id) ? $id : "addbutton"); ?>" class="ovalbutton point" ><span><img src="ui/images/icons/<?php echo (isset($icon) ? $icon : "add"); ?>.png" class="left" />&nbsp;<?php echo $text; ?></span></a>
