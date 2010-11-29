@@ -1,6 +1,6 @@
 <div id="content" class="container_12">
 	<div class="grid_9" id="breadcrumb">
-		<p><a href="/">Quickeval.me</a> <?php
+		<p><a href="/">Quickeval.org</a> <?php
 		if (!isset($breadcrumb)){
 			echo "&raquo; ";
 			echo $title;

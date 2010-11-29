@@ -52,17 +52,17 @@ $(document).ready(function(){
 		</div>
 		<div id="loginfooter">
 			<div id="loginlinks">
-				<a href="http://is.hss.cmu.edu" title="Information Systems"><div class="infosys">&nbsp;</div></a>
-				<a href="http://www.twitter.com/quickeval" title="Twitter"><div class="twitter">&nbsp;</div></a>
-				<a href="http://www.facebook.com/home.php?#/pages/QuickEval/178231018575?ref=search&sid=4804495.4289399316..1" title="Facebook"><div class="facebook">&nbsp;</div></a>
+				<a href="http://is.hss.cmu.edu" title="Information Systems"><div class="infosys"></div></a>
+				<a href="http://www.twitter.com/quickeval" title="Twitter"><div class="twitter"></div></a>
+				<a href="http://www.facebook.com/home.php?#/pages/QuickEval/178231018575?ref=search&sid=4804495.4289399316..1" title="Facebook"><div class="facebook"></div></a>
 			</div>
 		</div>
 	</div>
-	
+
 	<div id="demovideo">
 	<object width="621" height="450"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=4355711&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=4355711&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="621" height="450"></embed></object></div>
 	<?php Partial::Render_Partial("uservoice", array("hovercolor" => "#333F5F", "backgroundcolor" => "#000"));?>
-	
+
 	<!-- Google Analytics -->
 	<script type="text/javascript">
 

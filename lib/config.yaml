@@ -7,9 +7,9 @@ Configuration:
     Production:
         include_path: ".:/Users/sethvargo/Sites/quickeval/lib"
         site_root: "/home/arubinst/sites/me/quickeval/trunk/"
-        web_root: "http://dev.quickeval.me/"
+        web_root: "http://dev.quickeval.org/"
         selenium_browser: "firefox"
-        administrator_email: "needhelpcallari@gmail.com"
+        administrator_email: "profh@cmu.edu"
     Development:
         include_path: ".:/Users/sethvargo/Sites/quickeval/lib"
         site_root: "/Users/sethvargo/Sites/quickeval/"

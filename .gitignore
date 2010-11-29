@@ -10,8 +10,8 @@ tmp/**/*
 # Ignore db files (rebuild and repopulate each time)
 *.sqlite3
 
-# Ignore htaccess
-*.htaccess
-
 # ignore config yaml
 lib/config.yaml
+
+# ignore htaccess
+www/.htaccess
