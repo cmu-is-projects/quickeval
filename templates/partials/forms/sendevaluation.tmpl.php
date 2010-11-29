@@ -13,7 +13,7 @@
 				if ($courses){
 					foreach ($courses as $course){
 						echo "<option value='".$course->id."'";
-						if ($curcourseid == $course->id) echo " selected";
+						//if ($curcourseid == $course->id) echo " selected";
 						echo ">".$course->name."</option>";
 					}
 				}

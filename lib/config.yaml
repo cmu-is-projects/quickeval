@@ -11,11 +11,11 @@ Configuration:
         selenium_browser: "firefox"
         administrator_email: "profh@cmu.edu"
     Development:
-        include_path: ".:/Users/sethvargo/Sites/quickeval/lib"
-        site_root: "/Users/sethvargo/Sites/quickeval/"
+        include_path: ".:/Users/noahlevin/Sites/quickeval/lib"
+        site_root: "/Users/noahlevin/Sites/quickeval/"
         web_root: "http://localhost:3001/"
         selenium_browser: "safari"
-        administrator_email: "svargo@cmu.edu"
+        administrator_email: "nlevin@cmu.edu"
 
 Database:
     Production:

@@ -3,7 +3,7 @@ Partial::Render_Partial("grid", array(
 	"width" => 8, 
 	"title" => "Terms of Use", 
 	"id" => "contentblock",
-	"content" => "<p>ANY PERSON OR ENTITY ACCESSING THE QUICKEVAL.ME WEB SITE (the 'Site') OR ANY OF THE INFORMATION CONTAINED HEREIN AGREES TO AND IS BOUND BY THE FOLLOWING TERMS AND CONDITIONS OF THIS QUICKEVAL.ME WEB SITE TERMS OF USE ('Agreement'):</p><br>
+	"content" => "<p>ANY PERSON OR ENTITY ACCESSING THE QUICKEVAL.ORG WEB SITE (the 'Site') OR ANY OF THE INFORMATION CONTAINED HEREIN AGREES TO AND IS BOUND BY THE FOLLOWING TERMS AND CONDITIONS OF THIS QUICKEVAL.ORG WEB SITE TERMS OF USE ('Agreement'):</p><br>
 	
 	<p>This Agreement is a legal agreement between the User and QuickEval Team for the quickeval.org service you subscribe to. This service includes computer software, data storage mechanisms, databases and related designs, printed materials, and online or electronic documentation. By using QuickEval, you agree to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, you are not authorized to use QuickEval.</p><br>
 	
