@@ -358,7 +358,7 @@ switch ($_GET['controller']){
 			
 			$resultarr = array_reverse($resultarr);
 			
-			$c = new Partial("grid", array("width" => 12, "title" => "Results", "content" => new Partial("teacherresults", array("evalgroups" => $resultarr))));
+			$c = new Partial("grid", array("width" => 12, "title" => "Results", "evalbutton" => "Send an Evaluation", "content" => new Partial("teacherresults", array("evalgroups" => $resultarr))));
 		}
 		
 		break;
