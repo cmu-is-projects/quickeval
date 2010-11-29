@@ -193,4 +193,4 @@ CREATE TABLE IF NOT EXISTS `Users` (
 --
 -- Insert a default User
 --
-INSERT INTO Users (id, university_id, fname, lname, `level`, email, invite_code, `password`, `timestamp`, last_login_ip, active) VALUES(876, 1, 'Super', 'Administrator', 4, 'test', 'too_cool_for_one', '04574dc93174cf8c4fd2e3c35cb4301b7a468feda7aa47d2c65c8eddbe22f6d8', '2010-11-28 20:11:45', '0.0.0.0', 1);
+INSERT INTO Users (id, university_id, fname, lname, `level`, email, invite_code, `password`, `timestamp`, last_login_ip, active) VALUES(876, 1, 'Super', 'Administrator', 4, 'test@test.com', 'too_cool_for_one', '04574dc93174cf8c4fd2e3c35cb4301b7a468feda7aa47d2c65c8eddbe22f6d8', '2010-11-28 20:11:45', '0.0.0.0', 1);
