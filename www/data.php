@@ -23,7 +23,7 @@ function hilightSearch($word, $subject) {
         $word = str_replace($char, '\\'.$char, $word);
     }
     $word = '(.*)('.$word.')(.*)';
-    return eregi_replace($word, '\1<span class="highlight">\2</span>\3', $subject);
+    return @eregi_replace($word, '\1<span class="highlight">\2</span>\3', $subject);
 }
 function errorsExist(){
 	global $output;

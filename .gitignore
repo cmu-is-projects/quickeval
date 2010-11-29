@@ -11,7 +11,7 @@ tmp/**/*
 *.sqlite3
 
 # Ignore htaccess
-.htaccess
+*.htaccess
 
 # ignore config yaml
 lib/config.yaml

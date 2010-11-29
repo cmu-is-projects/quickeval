@@ -5,17 +5,17 @@ Configuration:
         application_version: 0.002
         blowfish_salt: "taki3ijfdsaSecret$tringUs3d4H@$HING!4KAL3NVAksdf.sdopi49"
     Production:
-        include_path: ".:/usr/share/pear:/usr/share/php:/home/arubinst/sites/me/quickeval/trunk/lib"
+        include_path: ".:/Users/sethvargo/Sites/quickeval/lib"
         site_root: "/home/arubinst/sites/me/quickeval/trunk/"
         web_root: "http://dev.quickeval.me/"
         selenium_browser: "firefox"
         administrator_email: "needhelpcallari@gmail.com"
     Development:
-        include_path: ".:/Applications/MAMP/bin/php5/lib/php:/Sites/quickeval/lib"
-        site_root: "/Sites/quickeval/"
-        web_root: "http://dev.quickeval.org/"
+        include_path: ".:/Users/sethvargo/Sites/quickeval/lib"
+        site_root: "/Users/sethvargo/Sites/quickeval/"
+        web_root: "http://localhost:3001/"
         selenium_browser: "safari"
-        administrator_email: "profh@cmu.edu"
+        administrator_email: "svargo@cmu.edu"
 
 Database:
     Production:
@@ -34,5 +34,5 @@ Database:
         server: localhost
         user: root
         pass: root
-        port: 8889
+        port: 3306
         database: quickeval
