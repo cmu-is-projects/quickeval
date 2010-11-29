@@ -15,3 +15,6 @@ tmp/**/*
 
 # ignore config yaml
 lib/config.yaml
+
+# ignore htaccess
+www/.htaccess

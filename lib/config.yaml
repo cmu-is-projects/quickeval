@@ -9,13 +9,13 @@ Configuration:
         site_root: "/home/arubinst/sites/me/quickeval/trunk/"
         web_root: "http://dev.quickeval.me/"
         selenium_browser: "firefox"
-        administrator_email: "needhelpcallari@gmail.com"
+        administrator_email: "profh@cmu.edu"
     Development:
-        include_path: ".:/Applications/MAMP/bin/php5/lib/php:/Sites/quickeval/lib"
-        site_root: "/Sites/quickeval/"
+        include_path: ".:/Applications/MAMP/bin/php5/lib/php:/Users/noahlevin/Sites/quickeval/lib"
+        site_root: "/Users/noahlevin/Sites/quickeval/"
         web_root: "http://dev.quickeval.org/"
         selenium_browser: "safari"
-        administrator_email: "profh@cmu.edu"
+        administrator_email: "nlevin@cmu.edu"
 
 Database:
     Production:

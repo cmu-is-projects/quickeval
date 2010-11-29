@@ -1,3 +1,4 @@
+php_value include_path ".:/Users/noahlevin/Sites/quickeval/lib"
 ErrorDocument 404 /404
 RewriteEngine on
 RewriteRule ^(\w+)(?:\?(.+?))?$ page.php?controller=$1&$2 [L,NC,QSA]

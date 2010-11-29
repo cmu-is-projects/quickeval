@@ -262,10 +262,10 @@ class User extends CustomClass {
 	 * @author Ari Rubinstein
 	 **/
 	public static function can_access($userlevel){
-		if (!$_SESSION['current_user'] && $userlevel == 0){
+		if (!isset($_SESSION['current_user']) && $userlevel == 0){
 			//if user isnt logged in
 			return true;
-		} else if (!$_SESSION['current_user'] && $userlevel > 0){
+		} else if (!isset($_SESSION['current_user']) && $userlevel > 0){
 			//if user isnt logged in but userlevel is > 0
 			return false;
 		} else if (is_object($_SESSION['current_user']) && $_SESSION['current_user']->level >= $userlevel){
