@@ -96,12 +96,6 @@ function fetchSurveyResponse(instance_id, student_id){
 		&nbsp;
 	</div>
 </div>
-<br/>
-
-<div style="clear:both;">
-	<?php Partial::Render_Partial("iconbutton", array("id" => "sendevaluation", "text" => "Send Evaluation", "icon" => "email", "linked" => "#sendeval", "rel" =>"facebox")); ?>
-</div>
-
 
 <div id="sendeval">
 <?php Partial::Render_Partial("forms/sendevaluation", array()); ?>

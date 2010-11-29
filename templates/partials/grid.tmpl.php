@@ -9,6 +9,11 @@ if (isset($id))	echo " id=\"$id\"";
 		echo Partial::Render_Partial("iconbutton", array("id" => "showadd", "text" => $button));
 		echo "</div>";
 	}
+	if (isset($evalbutton)) {
+		echo "<div class='right'>";
+		echo Partial::Render_Partial("iconbutton", array("id" => "sendevaluation", "text" => "Send Evaluation", "icon" => "email", "linked" => "#sendeval", "rel" =>"facebox"));
+		echo "</div>";
+	}
 	if (isset($title)) echo "<h2>$title</h2>";
 	if (is_array($content)){
 		foreach ($content as $c){
