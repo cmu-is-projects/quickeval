@@ -6,7 +6,7 @@
  * @package QuickEval
  **/
 
-if (strtolower($_SERVER['SERVER_NAME']) == "www.quickeval.me"){
+if (strtolower($_SERVER['SERVER_NAME']) == "www.quickeval.org"){
 	define("ENVIRONMENT", "Production");
 } else {
 	define("ENVIRONMENT", "Development");

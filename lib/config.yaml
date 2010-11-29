@@ -7,7 +7,7 @@ Configuration:
     Production:
         include_path: ".:/usr/share/pear:/usr/share/php:/home/arubinst/sites/me/quickeval/trunk/lib"
         site_root: "/home/arubinst/sites/me/quickeval/trunk/"
-        web_root: "http://dev.quickeval.me/"
+        web_root: "http://dev.quickeval.org/"
         selenium_browser: "firefox"
         administrator_email: "profh@cmu.edu"
     Development:

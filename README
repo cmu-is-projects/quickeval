@@ -1,4 +1,4 @@
-QuickEval.me Source Code!
+quickeval.org Source Code!
 
 
 Directory Structure:
@@ -16,6 +16,6 @@ phpunit --configuration devphpunit.xml
 Cron-job for email alerts goes like this:
 runs at 12:05am daily
 
-5 0 * * * curl "http://www.quickeval.me/24hourEmailReminder?access_token=aa2kk2n1g230c8ugfy482" >/dev/null 2>&1
+5 0 * * * curl "http://www.quickeval.org/24hourEmailReminder?access_token=aa2kk2n1g230c8ugfy482" >/dev/null 2>&1
 
 make sure you have that access token included in the URL.
