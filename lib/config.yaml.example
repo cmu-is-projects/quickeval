@@ -1,8 +1,4 @@
-## YOU NEED TO CHANGE THIS FILE AND MODIFY IT FOR YOU CONFIGURATION ##
-## COPY THIS FILE
-## RENAME IT TO config.yaml
-## NOW EDIT STUFF
-## DON'T CHECK config.yaml INTO THE REPO!
+#configuration file for quickeval site
 
 Configuration:
     Globals:
@@ -11,16 +7,16 @@ Configuration:
     Production:
         include_path: ".:/usr/share/pear:/usr/share/php:/home/arubinst/sites/me/quickeval/trunk/lib"
         site_root: "/home/arubinst/sites/me/quickeval/trunk/"
-        web_root: "http://dev.quickeval.org/"
+        web_root: "http://dev.quickeval.me/"
         selenium_browser: "firefox"
-		    administrator_email: "profh@cmu.edu"
+        administrator_email: "needhelpcallari@gmail.com"
     Development:
-        include_path: "## FULL PATH TO quickeval/lib NO TRAILING SLASH ##"
-        site_root: "## FULL PATH TO quickeval WITH TRAILING SLASH ##"
-        web_root: "http://localhost:8888/" ## REPLACE WITH PROPER INFORMATION ##
+        include_path: "ABSOLUTE_PATH_TO_quickeval/lib"
+        site_root: "ABSOLUTE_PATH_TO_quickeval/(trailing_slash)"
+        web_root: "http://localhost:3001/"
         selenium_browser: "safari"
-		    administrator_email: "## REPLACE WITH YOUR EMAIL ##"
-        
+        administrator_email: "YOUR_EMAIL"
+
 Database:
     Production:
         server: 127.0.0.1
@@ -28,9 +24,8 @@ Database:
         pass: bJtVdRccfJRUwG7e
         port: 3306
         database: quickeval
-   ## REPLACE WITH YOUR DB INFORMATION ##
     Development:
-        server: 127.0.0.1
+        server: localhost
         user: root
         pass: root
         port: 3306
