@@ -11,8 +11,8 @@ Configuration:
         selenium_browser: "firefox"
 		administrator_email: "profh@cmu.edu"
     Development:
-        include_path: ".:/Applications/MAMP/bin/php5/lib/php:/Users/needhelpcallari/Documents/CMU/Spring 2009/67373/quickeval/trunk/lib"
-        site_root: "/Users/needhelpcallari/Documents/CMU/Spring 2009/67373/quickeval/trunk/"
+        include_path: "/Users/sethvargo/Sites/quickeval/trunk/lib"
+        site_root: "/Users/sethvargo/Sites/quickeval/trunk/"
         web_root: "http://localhost:8888/"
         selenium_browser: "safari"
 		administrator_email: "profh@cmu.edu"
