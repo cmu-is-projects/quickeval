@@ -51,6 +51,7 @@ h3 { padding-bottom: 12px; color: #000; font-weight: bolder; font-size: 16px; }
 .intro { font-size: 18px; line-height: 26px; font-family: Georgia, Times, Times New Roman, serif; font-style: italic;}
 .intro-header {  font-size: 24px; font-family: Georgia, Times, Times New Roman, serif;letter-spacing: -1px; color: #43793D; font-weight: normal;}
 #tabs p { margin-bottom: 14px;}
+#content p {margin-bottom: 14px;}
 
 /*--HEADER ____________________________________________________*/
 #header { height: 149px; color: #bfbebe;}

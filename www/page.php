@@ -305,7 +305,7 @@ switch ($_GET['controller']){
 		}
 		if (!$projectteams){
 			//we have no project teams
-			$c = new Partial("grid", array("width" =>12, "title" => "No results to display", "content" => "Sorry, but QuickEval can not show you any results because you don't have any classes with groups."));
+			$c = new Partial("grid", array("width" =>12, "title" => "Welcome to QuickEval!", "content" => new Partial("welcome")));
 
 		} else {
 			$resultarr = array();
