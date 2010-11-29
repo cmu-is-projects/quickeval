@@ -11,11 +11,11 @@ Configuration:
         selenium_browser: "firefox"
         administrator_email: "needhelpcallari@gmail.com"
     Development:
-        include_path: ".:/usr/local/PEAR:/Applications/MAMP/bin/php5/lib/php:/Users/needhelpcallari/Documents/CMU/Archived/08 - Fall 2009/67475/quickeval/trunk/lib"
-        site_root: "/Users/needhelpcallari/Documents/CMU/Archived/08 - Fall 2009/67475/quickeval/trunk/"
-        web_root: "http://dev.quickeval.me/"
+        include_path: ".:/Applications/MAMP/bin/php5/lib/php:/Sites/quickeval/lib"
+        site_root: "/Sites/quickeval/"
+        web_root: "http://dev.quickeval.org/"
         selenium_browser: "safari"
-        administrator_email: "needhelpcallari@gmail.com"
+        administrator_email: "profh@cmu.edu"
 
 Database:
     Production:
@@ -25,7 +25,7 @@ Database:
         port: 3306
         database: quickeval
     aDevelopment:
-        server: dev.quickeval.me
+        server: dev.quickeval.org
         user: quickeval
         pass: bJtVdRccfJRUwG7e
         port: 3306
