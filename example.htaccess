@@ -1,3 +1,0 @@
-php_value include_path ".:/Applications/MAMP/bin/php5/lib/php:/Users/needhelpcallari/Documents/CMU/Spring 2009/67373/quickeval/trunk/lib"
-
-ErrorDocument 404 /404.php

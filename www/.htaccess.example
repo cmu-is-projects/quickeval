@@ -1,0 +1,5 @@
+php_value include_path "## REPLACE WITH ABSOLUTE PATH TO SITE ##"
+
+ErrorDocument 404 /404
+RewriteEngine on
+RewriteRule ^(\w+)(?:\?(.+?))?$ page.php?controller=$1&$2 [L,NC,QSA]

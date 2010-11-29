@@ -1,8 +1,16 @@
 quickeval.org Source Code!
 
+How do I get running?:
+0. create a mysql database named quickeval (remember the credentials you use!)
+1. run the db/quickeval.sql script against the new database
+2. copy www/.htaccess.example and rename www/.htaccess
+3. make necessary changes in .htaccess (they are commented)
+4. copy lib/config.yaml.example and rename lib/config.yaml
+5. make all changes in config.yaml (they are also commented - you'll need the DB login info from 0.)
+6. point MAMP/WAMP/whatever to the quickeval/www root (www root, not quickeval root)
+7. default login is test/test
 
 Directory Structure:
-
 /db - login information - strictly informative
 /lib - library for PHP functions
 /templates - templates for the site
