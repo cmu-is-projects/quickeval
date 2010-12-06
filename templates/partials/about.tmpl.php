@@ -100,7 +100,6 @@
 		<div class="grid_4 omega">
 			<h3>The Project Team</h3><ul><li><strong>Professor Heimann</strong>, Project Advisor</li>
 			<li><strong>Lauren Taglieri</strong>, Project Manager</li>
-			<li><strong>Ari Rubinstein</strong>, Technical Lead</li>
 			<li><strong>Noah Levin</strong>, Design Lead</li>
 			<li><strong>Steven Benders</strong>, Risk Manager</li>
 			<li><strong>Tracy O'Connor</strong>, Quality Assurance Manager</li></ul>

@@ -960,7 +960,7 @@ switch ($_REQUEST['controller']){
 			$mail = new PHPMailer();
 			$mail->From = Sanitize::s_plain($_REQUEST['email']);
 			$mail->FromName = Sanitize::s_plain($_REQUEST['name']);
-			$mail->AddAddress("needhelpcallari@gmail.com");
+			$mail->AddAddress("svargo@cmu.edu");
 			$mail->Subject = "QuickEval Contact Form Submission";
 			$mail->Body = "Name: $_REQUEST[name]\r\nMessage: $_REQUEST[message]\r\n";
 			if (!$mail->Send()){

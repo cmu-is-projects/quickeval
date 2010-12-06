@@ -20,16 +20,16 @@ $(document).ready(function(){
 	$('a[rel*=facebox]').facebox();
 });
 </script>
-<link rel="stylesheet" href="/ui/css/errorboxes.css" type="text/css" />
-<link rel="stylesheet" href="/ui/css/homestyle.css" type="text/css" />
-<link rel="stylesheet" href="/ui/css/facebox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="ui/css/errorboxes.css" type="text/css" />
+<link rel="stylesheet" href="ui/css/homestyle.css" type="text/css" />
+<link rel="stylesheet" href="ui/css/facebox.css" type="text/css" media="screen" />
 </head>
 <body id="login">
 	<div id="wrappertop"></div>
 	<div id="wrapper">
 		<div id="content">
 			<div id="header">
-				<h1><a href="/home"><img src="/images/qe_logo.gif" alt="QuickEval"></a></h1>
+				<h1><a href="/home"><img src="images/qe_logo.gif" alt="QuickEval"></a></h1>
 			</div>
 			<div id="darkbanner" class="banner320">
 				<h2><?php echo $title; ?></h2>
